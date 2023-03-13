@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.pinknav_bar{
+    background: linear-gradient(to bottom, #6d0435, #ee4a73)
+;
+    display: flex;
+    gap: 15px;
+    padding: 5px;       
+}
+
+
+.pinknav_bar a{
+
+    margin: 10px;
+    text-decoration: none;
+    color:white;
+    font-size: 17px;
+    font-weight: 200;
+    transition: all .5s;
+    
+}
+
+
+
+.nav_bar_left{
+
+
+    margin-left: 5%;
+    transition: all 500ms;
+}
+
+.nav_bar_left a:last-child{
+    padding-left: 100px;
+    transition: all 500ms;
+}
+
+.nav_bar_left i{
+
+    padding: 3px;
+}
+
+.nav_bar_right{
+    margin-left: 30.2%;
+}
+
+.whitenav_bar{
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    
+
+}
+
+.whitenav_bar h1{
+    margin-left:80px;
+    color: linear-gradient(to bottom, #6d0435, #ee4a73);
+    weight:bold;
+}
+
+.whitenav_right a{
+
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    margin-left: 80px;
+    font-size: 16.5px;
+    font-weight: bold;
+}
+
+.whitenav_right{
+
+    margin-top: 15px;
+    gap: 30px;   
+}
+
+.whitenav_right a:hover{
+
+    text-decoration: underline;
+    color: #ee4a73;
+    transition: .4s;
+
+}
+
+.doctor{
+
+    text-align: center;
+    background: linear-gradient(to bottom, #6d0435, #ee4a73);
+    padding: 15px;
+    color: white;
+}
+
+/* hero section starts here */
+
+.hero{
+    margin-left: 8%;
+}
+
+
+.hero_section{
+    display: flex;
+}
+
+.doc1{
+    margin-top: 20px;
+    margin-left: 10%;
+    width: 270px;
+    border: 1px solid black;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.doc1 img{
+    border-radius: 5px;
+    max-width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.doc1 p{
+
+    padding: 20px;
+    margin-left:10px;
+    font-size: 30px;
+    color:#00b286;
+}
+
+
+.doc1 h5{
+    margin: 10px;
+    color:  #00b286;
+    font-size: 20px;
+    margin-left: 25px;
+    padding-bottom:20px;
+    border-bottom: 1px solid black;
+}
+
+
+
+.doc1 span{
+
+    margin-bottom: 100px;
+    margin-left: 80px;
+}
+
+
+
+
+
+
+
+
+
+.hero_section_right{
+    display: flex;
+    
+}
+
+
+.doc2{
+    margin-top: 20px;
+    margin-left: 10%;
+    width: 270px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.doc2 img{
+    border-radius: 5px;
+    max-width:100%;
+    border-bottom: 1px solid black;
+}
+
+.doc2 p{
+    margin: 10px;
+    margin-left: 28px;
+    padding: 10px;
+    font-size: 30px;
+    color:#00b286;
+}
+
+.doc2 h5{
+    margin: 10px;
+    color:  #00b286;
+    font-size: 20px;
+    margin-left: 25px;
+    padding-bottom:20px;
+    border-bottom: 1px solid black;
+}
+
+.doc2 span{
+
+        margin-left: 80px;
+}
+
+
+
+
+
+
+
+
+.footer{
+    background: linear-gradient(to bottom, #6d0435, #ee4a73);
+    display:flex;
+}
+
+.footer_left{
+    color:#ffffff;
+    margin-left: 5%;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.footer_left p{
+    padding: 10px;
+}
+
+.footer_right {
+    margin-left: 30%;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.footer_right a{
+    color: #ffffff;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.footer_right span{
+
+    padding: 10px;
+}

@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.pinknav_bar{
+    background: linear-gradient(to bottom, #6d0435, #ee4a73)
+;
+    display: flex;
+    gap: 15px;
+    padding: 5px;       
+}
+
+
+.pinknav_bar a{
+
+    margin: 10px;
+    text-decoration: none;
+    color:white;
+    font-size: 17px;
+    font-weight: 200;
+    transition: all .5s;
+    
+}
+
+
+
+.nav_bar_left{
+
+
+    margin-left: 5%;
+    transition: all 500ms;
+}
+
+.nav_bar_left a:last-child{
+    padding-left: 100px;
+    transition: all 500ms;
+}
+
+.nav_bar_left i{
+
+    padding: 3px;
+}
+
+.nav_bar_right{
+    margin-left: 30.2%;
+}
+
+.whitenav_bar{
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    
+
+}
+
+.whitenav_bar h1{
+    margin-left:80px;
+    color: linear-gradient(to bottom, #6d0435, #ee4a73);
+    weight:bold;
+}
+
+.whitenav_right a{
+
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    margin-left: 80px;
+    font-size: 16.5px;
+    font-weight: bold;
+}
+
+.whitenav_right{
+
+    margin-top: 15px;
+    gap: 30px;   
+}
+
+.whitenav_right a:hover{
+
+    text-decoration: underline;
+    color: #ee4a73;
+    transition: .4s;
+
+}
+
+.about_us{
+
+    text-align: center;
+    background: linear-gradient(to bottom, #6d0435, #ee4a73);
+    padding: 15px;
+    color: white;
+}
+
+/* hero section starts here */
+
+.hero_section{
+    display:flex;
+    justify-content: space-between;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+.hero_section_left{
+    
+    display: inline;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+.hero_section_left h2{
+
+    display: inline;
+    font-size: 2.2em;
+    
+}
+
+.hero_section_left span{
+    font-weight: bold;
+}
+
+.hero_section_left img{
+    height: auto;
+    width: 32em;
+}
+
+.hero_section_right{
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 80px;   
+    
+}
+
+.hero_section_right p{
+    text-align: justify;
+    font-family: arial, helvetica, sans-serif;
+}
+.hero_section_right span{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.footer{
+    background: linear-gradient(to bottom, #6d0435, #ee4a73);
+    display:flex;
+}
+
+.footer_left{
+    color:#ffffff;
+    margin-left: 5%;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.footer_left p{
+    padding: 10px;
+}
+
+.footer_right {
+    margin-left: 30%;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.footer_right a{
+    color: #ffffff;
+    text-decoration: none;
+    margin-top: 10px;
+
+}
+
+
+.footer_right span{
+
+    padding: 10px;
+}
